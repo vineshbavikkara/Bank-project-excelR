@@ -9,5 +9,5 @@ xgboost>=1.1.1
 MarkupSafe==1.1.1
 itsdangerous==1.1.0
 Werkzeug==0.15.5
-request=1.0.117
+request==1.0.117
 click>=5.1
