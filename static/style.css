@@ -5,18 +5,18 @@
 }
 
 body{
-  background: url('https://i.imgur.com/kk76J5I.jpg') no-repeat top center;
-  background-size: cover;
-  height: 100vh ;
+	background: url('https://i.imgur.com/kk76J5I.jpg') no-repeat top center;
+  	background-size: cover;
+  	height: 100vh ;
  }
 
 h1{
-  color: #000;
-  font-size: 23px;
-  text-decoration: none;
-  position: absolute;
-  top: 9.5%;
-  left: 3%; 
+  	color: #000;
+  	font-size: 23px;
+  	text-decoration: none;
+  	position: absolute;
+  	top: 9.5%;
+  	left: 3%; 
 }
 
 ul{
@@ -54,22 +54,22 @@ ul li a:hover{
 
 
 form{
-  position: absolute;
-  top: 16%;
-  left: 3%;
+  	position: absolute;
+	top: 16%;
+	left: 3%;
 }
 
 
 input{
 	color: #000;
-  font-size: 15px;
+  	font-size: 15px;
  	text-decoration: none;
-  padding: 4px;
+  	padding: 4px;
 }
 
 input:hover{
-  background-color: #ff0;
-  color: #000;
+  	background-color: #ff0;
+  	color: #000;
 	border: 1.9px solid #000;
 	text-decoration: none;
 	transition: 0.1s ease;
@@ -77,22 +77,21 @@ input:hover{
 
 label{
 	color: #000;
-  font-size: 16px;
+  	font-size: 16px;
  	text-decoration: none;
-  padding: 4px;
-
+  	padding: 4px;
 }
 
 select{
 	color: #000;
-  font-size: 15px;
+  	font-size: 15px;
  	text-decoration: none;
-  padding: 2px;
+  	padding: 2px;
 }
 
 select:hover{
-  background-color: #ff0;
-  color: #000;
+  	background-color: #ff0;
+  	color: #000;
 	border: 1.9px solid #000;
 	text-decoration: none;
 	transition: 0.4s ease;
@@ -101,34 +100,33 @@ select:hover{
 option{
 	color: #000;
 	background-color: #fff;
-  font-size: 15px;
+  	font-size: 15px;
  	text-decoration: none;
-  padding: 2.5px;
+  	padding: 2.5px;
 }
 
 
 button{
 	position: absolute;
-  top: 80%;
-  left: 35%;
-  border: 2px solid #154360;
-  font-size: 18px;
-  padding: 6px 9px;
-  color: #000;
+  	top: 80%;
+  	left: 35%;
+  	border: 2px solid #154360;
+  	font-size: 18px;
+  	padding: 6px 9px;
+  	color: #000;
  	text-decoration: #00f;
-  transition: 0.5s ease;  
+  	transition: 0.5s ease;  
 }
 
 button:hover{
-  background-color: #000;
-  color: #fff;
+  	background-color: #000;
+  	color: #fff;
 }
 
 .preds{
-  background-color: #000;
+  	background-color: #000;
 	color: #fff ;
 	font-size: 18px;
-  padding: 3px 20px;
-  border: 1.5px solid #000;
-
+  	padding: 3px 20px;
+  	border: 1.5px solid #000;
 }
