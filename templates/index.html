@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LOAN DEFAULT PREDICTION WEB APPLICATION</title>
+	<link rel="stylesheet" type="text/css" href="static/style.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<h1> LOAN DEFAULT PREDICTION WEB APPLICATION </h1>
+	<div class="login">
+		<form action="{{url_for('predict')}}" method="post">
+			<input type="number" id="DisbursementGross" name=" DisbursementGross" placeholder="Amount Disbursed in $"required=" required"><br>	<br>
+			<input type="number" id="Term" name="Term" placeholder=" Loan Term in Months" required="required"><br><br>
+			<input type="number" id="NoEmp" name="NoEmp" placeholder=" Business Employees " required="required"><br><br>
+
+			<label for="NewExist_new" >Business Type : </label>
+				<select id="NewExist_new" name="NewExist_new">		
+		 			<option value="1"> New </option>
+		 			<option value="0"> Existing </option>
+		 		</select><br><br>
+
+		 	<label for="FranchiseCode_yes">Franchise : </label>
+				<select id="FranchiseCode_yes" name="FranchiseCode_yes">		
+		 			<option value="1"> Yes </option>
+		 			<option value="0"> No </option>
+		 		</select><br><br>
+
+			<label for="UrbanRural_urban">Business Geography : </label>
+				<select id="UrbanRural_urban" name="UrbanRural_urban">		
+		 			<option value="Urban"> Urban </option>
+		 			<option value="Unndefined"> Unndefined </option>
+		 			<option value="Rural"> Rural </option>
+		 			</select><br><br>
+
+			<label for="LowDoc_yes">LowDoc Loan Program : </label>
+				<select id="LowDoc_yes" name="LowDoc_yes">		
+		 			<option value="1"> Yes </option>
+		 			<option value="0"> No </option>
+		 		</select><br><br>
+
+		 	<label for="RevLineCr_yes">Revolving Line of Credit : </label>
+				<select id="RevLineCr_yes" name="RevLineCr_yes">		
+		 			<option value="1"> Yes </option>
+		 			<option value="0"> No </option>
+		 		</select><br><br>
+		 	<input type="reset" name="Reset">
+		 	<button type="submit" >Predict</button>
+			
+			<br><br><br>
+
+				<div class="preds"> {{ predicted }} </div>
+			</div>
+		
+	</div>
+
+</body>
+</html>
