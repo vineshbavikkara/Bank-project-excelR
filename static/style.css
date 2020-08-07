@@ -5,10 +5,9 @@
 }
 
 body{
-	background: url('https://i.imgur.com/kk76J5I.jpg') no-repeat top center;
-  	background-size: cover;
-  	height: 100vh ;
+  	background-color: #85C1E9;
  }
+
 h1{
   	color: #000;
   	font-size: 25px;
@@ -17,30 +16,7 @@ h1{
   	top: 10%;
   	left: 5%; 
 }
-ul{
-	float: right;
-	list-style-type: none;
-	margin-top: 15px;
-	margin-left: 10px;
-}
-ul li{
-	display: inline-block;
-}
-ul li a{
-	text-decoration: none;
-	color: #fff;
-	padding: 2px 13px;
-	border: 1.5px solid #000;
-	transition: 0.5s ease;
-}
-ul li.active a{
-	background-color: #000;
-	color: #FDFEFE ;
-}
-ul li a:hover{
-	background-color: #fff;
-	color: #000;
-}
+
 form{
   	position: absolute;
 	top: 15%;
