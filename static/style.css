@@ -11,11 +11,11 @@ body{
  }
 h1{
   	color: #000;
-  	font-size: 23px;
+  	font-size: 25px;
   	text-decoration: none;
   	position: absolute;
-  	top: 9.5%;
-  	left: 3%; 
+  	top: 10%;
+  	left: 5%; 
 }
 ul{
 	float: right;
@@ -43,12 +43,12 @@ ul li a:hover{
 }
 form{
   	position: absolute;
-	top: 16%;
-	left: 3%;
+	top: 15%;
+	left: 5%;
 }
 input{
 	color: #000;
-  	font-size: 15px;
+  	font-size: 17px;
  	text-decoration: none;
   	padding: 4px;
 }
@@ -62,14 +62,14 @@ input:hover{
 
 label{
 	color: #000;
-  	font-size: 16px;
+  	font-size: 17px;
  	text-decoration: none;
   	padding: 4px;
 }
 
 select{
 	color: #000;
-  	font-size: 15px;
+  	font-size: 16px;
  	text-decoration: none;
   	padding: 2px;
 }
@@ -85,17 +85,17 @@ select:hover{
 option{
 	color: #000;
 	background-color: #fff;
-  	font-size: 15px;
+  	font-size: 16px;
  	text-decoration: none;
   	padding: 2.5px;
 }
 button{
 	position: absolute;
-  	top: 80%;
-  	left: 35%;
+  	top: 80.5%;
+  	left: 37%;
   	border: 2px solid #154360;
-  	font-size: 18px;
-  	padding: 6px 9px;
+  	font-size: 19px;
+  	padding: 6.5px 9.5px;
   	color: #000;
  	text-decoration: #00f;
   	transition: 0.5s ease;  
@@ -108,7 +108,7 @@ button:hover{
 .preds{
   	background-color: #000;
 	color: #fff ;
-	font-size: 18px;
+	font-size: 20px;
   	padding: 3px 20px;
   	border: 1.5px solid #000;
 }
