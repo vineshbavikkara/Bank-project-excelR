@@ -9,7 +9,6 @@ body{
   	background-size: cover;
   	height: 100vh ;
  }
-
 h1{
   	color: #000;
   	font-size: 23px;
@@ -18,55 +17,41 @@ h1{
   	top: 9.5%;
   	left: 3%; 
 }
-
 ul{
 	float: right;
 	list-style-type: none;
 	margin-top: 15px;
 	margin-left: 10px;
 }
-
 ul li{
 	display: inline-block;
 }
-
 ul li a{
 	text-decoration: none;
 	color: #fff;
 	padding: 2px 13px;
 	border: 1.5px solid #000;
 	transition: 0.5s ease;
-
 }
-
-
 ul li.active a{
 	background-color: #000;
 	color: #FDFEFE ;
 }
-
-
 ul li a:hover{
 	background-color: #fff;
 	color: #000;
 }
-
-
-
 form{
   	position: absolute;
 	top: 16%;
 	left: 3%;
 }
-
-
 input{
 	color: #000;
   	font-size: 15px;
  	text-decoration: none;
   	padding: 4px;
 }
-
 input:hover{
   	background-color: #ff0;
   	color: #000;
@@ -104,8 +89,6 @@ option{
  	text-decoration: none;
   	padding: 2.5px;
 }
-
-
 button{
 	position: absolute;
   	top: 80%;
@@ -117,7 +100,6 @@ button{
  	text-decoration: #00f;
   	transition: 0.5s ease;  
 }
-
 button:hover{
   	background-color: #000;
   	color: #fff;
