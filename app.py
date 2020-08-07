@@ -6,7 +6,7 @@ from xgboost import XGBClassifier
 import pickle
 
 
-app  = Flask(__name__)
+app = Flask(__name__)
 model = pickle.load(open('model.pkl','rb'))
 
 @app.route('/')
@@ -14,7 +14,7 @@ def home():
     return render_template("index.html")
 @app.route('/predict',methods=['POST'])
 def predict():
-    response=[x for x in request.form.values()]  
+    response = [x for x in request.form.values()]  
     response = pd.DataFrame(response).T
     response.columns = ['DisbursementGross', 'Term', 'NoEmp', 'NewExist_new','FranchiseCode_yes',
                     'UrbanRural_urban','LowDoc_yes', 'RevLineCr_yes']
