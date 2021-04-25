@@ -5,7 +5,11 @@
 }
 
 body{
-  	background-color: #85C1E9;
+  	background-image: url(1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
  }
 
 h1{
