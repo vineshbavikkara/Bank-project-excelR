@@ -5,12 +5,16 @@
 }
 
 body{
-  	background-color: #55cefa;
+  background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(images/1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
  }
 
 h1{
   	color: #000;
-  	font-size: 25px;
+  	font-size: 28px;
   	text-decoration: none;
   	position: absolute;
   	top: 10%;
@@ -51,8 +55,8 @@ select{
 }
 
 select:hover{
-  	background-color: #ff0;
-  	color: #000;
+  background-color: #ff0;
+  color: #000;
 	border: 1.9px solid #000;
 	text-decoration: none;
 	transition: 0.4s ease;
@@ -82,9 +86,14 @@ button:hover{
 }
 
 .preds{
-  	background-color: #000;
+  background-color: #000;
 	color: #fff ;
 	font-size: 20px;
-  	padding: 3px 20px;
-  	border: 1.5px solid #000;
+  padding: 3px 20px;
+  border: 1.5px solid #000;
+}
+
+.login{
+  margin-top: 10px;
+  padding-top: 5px
 }
